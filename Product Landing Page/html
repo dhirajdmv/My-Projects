@@ -1,0 +1,118 @@
+<head>
+  <title>freeCodeCamp Product Landing Page</title>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+</head>
+
+<body>
+  <div id="page-container"> <!-- Overall Div Page Container -->
+    <header id="header"> <!-- Page Header -->
+      <img id="header-img" src="https://www.onlinelogomaker.com/blog/wp-content/uploads/2017/06/music-logo-design.jpg" alt="Instruments Logo"/>
+      <h1>Musical Instruments</h1> <!-- Page Title -->
+      <nav id="nav-bar"> <!-- Navigation Bar -->
+        <button><a class="nav-link" href="#features">Features</a></button>
+        <button><a class="nav-link" href="#how-it-works">How It Works</a></button>
+        <button><a class="nav-link" href="#pricing">Pricing</a></button>
+      </nav>
+    </header>
+    <br>
+  
+    <div class="form-container"> <!-- Form Container -->
+      <h2>Music is Life,  <u>every time</u></h2> <!-- Form Title -->
+      <p>Subscribe to our mailing list for news alerts and offers!</p>
+      <form id="form" method="post" action="https://www.freecodecamp.com/email-submit">
+        <input id="email" type="email" name="email" placeholder="Please enter your email:" required/>
+        <input id="submit" type="submit" value="Start Your Journey"/>
+      </form>
+    </div>
+    <br>
+ 
+    <div class="contents"> <!-- Content Container -->
+      <section id="features"> <!-- Features Section -->
+        <div class="list"> <!-- Quality Feature -->
+          <div class="icon">
+            <i class="material-icons">assignment_turned_in</i>
+          </div>
+          <div class="discription">
+            <h2>Quality</h2>
+            <p>Our number one priority is to provide our customers with the number one musical instruments for music and performance quality! Our Musical Instruments are guaranteed to perform as you want in journey of your music.</p>
+          </div>
+        </div>
+        <div class="list"> <!-- Technology Feature -->
+          <div class="icon">
+            <i class="material-icons">build</i>
+          </div>
+          <div class="discription">
+            <h2>Technology</h2>
+            <p>We build our Musical instruments  from premium materials and utilize the latest in sound technology to help maximize the instrument performance.</p>
+          </div>
+        </div>
+        <div class="list"> <!-- Customer Service Feature -->
+          <div class="icon">
+            <i class="material-icons">settings_phone</i>
+          </div>
+          <div class="discription">
+            <h2>Customer Service</h2>
+            <p>Happy customers keep the buisness and instruments going and we offer 24/7 customer service to ensure our patrons are 100% satisfied with the sound and performance of their musical instruments!</p>
+          </div>
+        </div>
+      </section>
+      <br>
+      
+      <section id="how-it-works"> <!-- How It Works Section -->
+        <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/QIfqkP_Zrso?&rel=0" frameborder="0" allowfullscreen></iframe>
+      </section>
+      <br>
+      
+      <section id="pricing"> <!-- Pricing Section -->
+        <div id="piano">
+          <div class="option">
+            Piano
+          </div>
+          <img id="pianoimage" src="https://nationaltoday.com/wp-content/uploads/2021/10/World-Piano-Day.jpg" alt="piano image" />
+          <h3>$25000 dollars</h3>
+          <ul>
+            <li>3 year warrenty</li>
+            <li>Perfect tunning For best sound</li>
+            <li>Gauranteed performance everytime!</li>
+          </ul>
+          <button class="btn">Select</button>
+        </div>
+        <div id="guitar">
+          <div class="option">
+            Guitar
+          </div>
+         <img id="guitarimage" src="https://images.unsplash.com/photo-1605020420620-20c943cc4669?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8Z3VpdGFyfGVufDB8fDB8fA%3D%3D&w=1000&q=80" alt="Guitar image" />
+          <h3>$650 dollars</h3>
+          <ul>
+            <li>1 year warrenty</li>
+            <li>high durable strings </li>
+            <li>Guaranteed best performance everytime!</li>
+          </ul>
+          <button class="btn">Select</button>
+        </div>
+        <div id="violin">
+          <div class="option">
+            violin
+          </div>
+          <img id="violinimage" src="https://www.chemistryviews.org/wp-content/uploads/legacy/common/images/thumbnails/source/13774967b3a.jpg" alt="Violin image" />
+          <h3>$1000 dollars</h3>
+          <ul>
+            <li>2 years warranty</li>
+            <li>Hollow best quality</li>
+            <li>If this one fails, it's on us!</li>
+          </ul>
+          <button class="btn">Select</button>
+        </div>
+      </section>
+      <br>
+      
+    </div>
+    <br>
+
+  </div>
+</body>
+
+<footer> <!-- Footer Section -->
+  <span>Product Landing Page </span>
+</footer>
